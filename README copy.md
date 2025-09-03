@@ -827,7 +827,7 @@ export const createProfileAction = async (
 };
 ```
 
-### Supabase
+### Supabase // planetscale.com , mongo.com , render.com
 
 - create account and organization
 - create project
@@ -1017,7 +1017,6 @@ model Profile {
   profileImage String
   createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
-
 }
 ```
 
@@ -1029,7 +1028,9 @@ npx prisma db push
 npx prisma studio
 ```
 
-### CreateProfile Action - Complete
+### CreateProfile Action - Complete // nên log :     console.log(validatedFields);     console.log(user);
+
+
 
 [Clerk User Metadata](https://clerk.com/docs/users/metadata)
 
