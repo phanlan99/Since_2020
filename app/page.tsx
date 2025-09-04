@@ -1,13 +1,24 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import CategoriesList from '@/components/home/CategoriesList';
+import PropertiesContainer from '@/components/home/PropertiesContainer';
 
-function HomePage() {
+function HomePage({
+  searchParams,
+}: {
+  searchParams: { category?: string; search?: string };
+}) {
+  // console.log(searchParams);
+
   return (
-    <div>
-      <h1>Home Page /</h1>
-      <Button variant={'outline'} size={'lg'}> Click me </Button>
-    </div>
-  )
+    <section>
+      <CategoriesList
+        category={searchParams?.category}
+        search={searchParams?.search}
+      />
+      <PropertiesContainer
+        category={searchParams?.category}
+        search={searchParams?.search}
+      />
+    </section>
+  );
 }
-
-export default HomePage
+export default HomePage;
