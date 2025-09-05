@@ -1,6 +1,5 @@
 'use client';
 
-import { Toast } from "@radix-ui/react-toast";
 import { ThemeProvider } from "./theme-provider";
 import { Toaster } from '@/components/ui/toaster';
 

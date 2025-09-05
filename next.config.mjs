@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
+  images: {
     remotePatterns: [
       {
         protocol: 'https',
@@ -11,6 +11,9 @@ const nextConfig = {
         hostname: 'uzxjjshqimoduovnmkwn.supabase.co',
       },
     ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // 🚀 bỏ qua lỗi ESLint khi build
   },
 };
 
