@@ -8,7 +8,7 @@ import PropertyRating from '@/components/card/PropertyRating';
 import BookingCalendar from '@/components/properties/booking/BookingCalendar';
 import PropertyDetails from '@/components/properties/PropertyDetails';
 import UserInfo from '@/components/properties/UserInfo';
-import { Separator } from '@radix-ui/react-dropdown-menu';
+import { Separator } from '@/components/ui/separator';
 import Description from '@/components/properties/Description';
 import Amenities from '@/components/properties/Amenities';
 import PropertyMap from '@/components/properties/PropertyMap';
@@ -57,21 +57,19 @@ async function PropertyDetailsPage({ params }: { params: { id: string } }) {
             <h1 className='text-xl font-bold'>{property.name}</h1>
             <PropertyRating inPage propertyId={property.id} />
           </div>
+          <UserInfo profile={{ firstName, profileImage }} />
+          <PropertyDetails details={details} />
+          <Separator className='mt-4' />
+          <Description description={property.description} />
+          
         </div>
         <div className='lg:col-span-4 flex flex-col items-center'>
           {/* calendar */}
           <BookingCalendar />
         </div>
-        <PropertyDetails details={details} />
-        <UserInfo profile={{ firstName, profileImage }} />
-        <Separator className='mt-4' />
-
       </section>
-      <PropertyDetails details={details} />
-      <UserInfo profile={{ firstName, profileImage }} />
-      <Separator className='mt-4' />
-      <Description description={property.description} />
 
+      <Separator className='mt-4' />
       <Amenities amenities={property.amenities} />
       <DynamicMap countryCode={property.country} />
     </section>

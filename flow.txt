@@ -1,0 +1,523 @@
+Update !!!
+1min
+ 
+5. Important Info !!!
+1min
+ 
+6. Install
+1min
+ 
+7. Files and Folders
+3min
+ 
+8. Home Page
+3min
+ 
+9. Create Pages
+3min
+ 
+10. Link Component
+2min
+ 
+11. Nested Routes
+2min
+ 
+12. CSS
+1min
+ 
+13. Tailwind Info (optional)
+10min
+ 
+14. Layout Component
+4min
+ 
+15. Navbar Component
+4min
+ 
+16. Fonts
+4min
+ 
+17. Metadata
+2min
+ 
+18. Server vs Client
+2min
+ 
+19. Counter
+7min
+ 
+20. Fetch Data
+6min
+ 
+21. Refactor
+3min
+ 
+22. Loading Component
+4min
+ 
+23. Error Component
+3min
+ 
+24. Nested Layout
+3min
+ 
+25. Dynamic Page
+6min
+ 
+26. Local Image
+8min
+ 
+27. Remote Images
+6min
+ 
+28. Responsive Images
+8min
+ 
+29. More Routing Options
+8min
+ 
+30. Server Actions - Info
+4min
+ 
+31. Actions Page - Setup
+9min
+ 
+32. Actions File
+6min
+ 
+33. Save User
+8min
+ 
+34. Fetch Users
+3min
+ 
+35. Revalidate Cache and Redirect
+6min
+ 
+36. UseFormStatus Hook
+7min
+ 
+37. UseFormState Hook
+8min
+ 
+38. Delete Button
+3min
+ 
+39. Input Hidden
+4min
+ 
+40. Bind Method
+5min
+ 
+41. Route Handlers - Info
+3min
+ 
+42. Route Handler - GET
+6min
+ 
+43. Route Handlers - Params
+7min
+ 
+44. Route Handlers - POST
+7min
+ 
+45. Middleware
+6min
+ 
+46. Local Build
+4min
+ 
+47. Cache
+
+
+
+Start
+48. Important Info !!!
+1min
+ 
+49. Project Overview
+12min
+ 
+50. Install New Next.js Application
+2min
+ 
+51. Remove Boilerplate
+2min
+ 
+52. Create Pages
+5min
+Start
+53. Important Update !!!
+1min
+ 
+54. Install Shadcn/ui Library
+3min
+ 
+55. Shadcn/ui Button Component
+8min
+ 
+56. Install More Shadcn/ui Components
+4min
+ 
+57. Navbar Structure
+6min
+ 
+58. Logo and NavSearch Components
+4min
+ 
+59. Change Theme with Shadcn/ui
+4min
+ 
+60. Setup Dark Mode with Shadcn/ui
+9min
+ 
+61. LinksDropdown Component
+10min
+Start
+62. Important Info !!!
+1min
+ 
+63. Setup and Customize Clerk Auth Provider
+10min
+ 
+64. SignOutLink Component
+4min
+ 
+65. LinksDropdown Component
+5min
+ 
+66. Create Profile - Setup
+9min
+ 
+67. FormInput Component
+5min
+ 
+68. SubmitButton Component
+5min
+ 
+69. FormContainer Component
+8min
+ 
+70. Refactor Create Profile
+7min
+ 
+71. Zod Library
+12min
+Start
+72. Important Info !!!
+1min
+ 
+73. Supabase Setup
+5min
+ 
+74. Prisma Setup
+4min
+ 
+75. Connect Prisma and Supabase
+7min
+ 
+76. Prisma Crud Examples
+4min
+ 
+77. Create Profile Model and createProfileAction
+15min
+ 
+78. Fetch Profile Image Action
+6min
+ 
+79. Modify Create Profile Page
+6min
+ 
+80. Fetch User Profile
+9min
+ 
+81. Update Profile Page
+9min
+ 
+82. Zod SafeParse Method
+6min
+ 
+83. ValidateWithZodSchema - Helper Function
+5min
+ 
+84. Image Input
+5min
+ 
+85. Image Input Container
+16min
+ 
+86. Image Zod Validation
+9min
+ 
+87. Supabase Bucket and Keys
+4min
+ 
+88. Supabase Upload Image
+7min
+ 
+89. Update Profile Image Action - Complete
+4min
+ 
+90. Property Schema
+6min
+ 
+91. Create Property Page - Setup
+12min
+ 
+92. Price Input
+6min
+ 
+93. Categories Input
+9min
+ 
+94. Description Input
+5min
+ 
+95. Countries Input
+9min
+ 
+96. Counter Input
+13min
+ 
+97. Amenities Input
+13min
+ 
+98. Create Property
+8min
+ 
+99. Fetch Properties
+10min
+ 
+100. Home Page - Setup
+6min
+ 
+101. Categories List
+9min
+ 
+102. Empty List
+3min
+ 
+103. Properties Container
+4min
+ 
+104. PropertyCard - Setup
+4min
+ 
+105. PropertyCard - Structure
+12min
+ 
+106. Property Rating
+6min
+ 
+107. Favorites Toggle Button
+3min
+ 
+108. Country Name and Flag
+4min
+ 
+109. Loading Cards
+7min
+ 
+110. NavSearch Component
+13min
+ 
+111. Favorites SignIn Button
+8min
+ 
+112. Fetch Favorite
+6min
+ 
+113. Favorites Toggle Form
+9min
+ 
+114. Toggle Favorites - Functionality
+6min
+ 
+115. Favorites Page
+8min
+ 
+116. Property Details Page - Setup
+7min
+Stop
+117. Breadcrumbs Component
+6min
+ 
+118. Share Button Component
+9min
+ 
+119. Image Container Component
+6min
+ 
+120. Calendar Component
+5min
+ 
+121. Property Details Component
+4min
+ 
+122. UserInfo Component
+6min
+ 
+123. Description Component
+8min
+ 
+124. Amenities Component
+6min
+ 
+125. Property Map Component
+9min
+Start
+126. Supabase Bug !!!
+1min
+ 
+127. Deploy Application on Vercel
+12min
+ 
+128. Reviews Model
+6min
+ 
+129. RatingInput Component
+6min
+ 
+130. SubmitReviews Component
+8min
+ 
+131. SubmitReview Functionality
+7min
+ 
+132. Fetch Reviews
+2min
+ 
+133. Render Reviews
+5min
+ 
+134. ReviewCard Component
+15min
+ 
+135. Fetch and Delete User Reviews
+5min
+ 
+136. IconButton Component
+6min
+ 
+137. Reviews Page
+7min
+ 
+138. Reviews Loading Component
+4min
+ 
+139. PropertyRating Component - Complete
+6min
+ 
+140. Allow Review
+
+
+
+Booking Model
+5min
+ 
+142. Booking Components
+6min
+ 
+143. Zustand Library
+9min
+ 
+144. Booking Container / Calendar - Initial Setup
+10min
+ 
+145. Calculate Totals
+9min
+ 
+146. Booking Form
+9min
+ 
+147. Confirm Booking Component
+8min
+ 
+148. Create Booking Action
+6min
+ 
+149. Blocked Periods
+8min
+ 
+150. Disabled Dates
+10min
+ 
+151. Fetch Bookings and Delete Booking
+6min
+ 
+152. Bookings Page
+11min
+ 
+153. Delete Booking
+3min
+ 
+154. Loading Table Component
+
+
+ Fetch and Delete Rentals Functions
+10min
+ 
+156. Rentals Page
+14min
+ 
+157. Fetch Rental Details Function
+3min
+ 
+158. Edit Rentals Page
+12min
+ 
+159. Amenities Input Gotcha
+6min
+ 
+160. Update Rental Functions
+9min
+ 
+161. Reservation Page - Setup
+3min
+ 
+162. Fetch Reservations
+3min
+ 
+163. Reservations Page - Complete
+9min
+ 
+164. Admin Page - Setup
+3min
+ 
+165. Admin Page - Middleware
+11min
+ 
+166. Admin Page - Loading Components
+6min
+ 
+167. Admin Page - Stats Container
+9min
+ 
+168. Admin Page - Fetch Chart Data
+10min
+ 
+169. Admin Page - Chart Container
+8min
+ 
+170. Stripe - Setup
+7min
+ 
+171. Stripe - Checkout Page
+6min
+ 
+172. Stripe - Payment Route
+14min
+ 
+173. Stripe - Confirm Route
+8min
+ 
+174. Stripe - Refactor Queries
+6min
+ 
+175. Reservations Stats
+8min
+Start
+176. Deploy Bug Fix !!!
+1min
+ 
+177. Atlas Setup - Optional Video !!!
