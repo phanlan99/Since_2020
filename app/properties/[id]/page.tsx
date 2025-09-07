@@ -18,12 +18,21 @@ import SubmitReview from '@/components/reviews/SubmitReview';
 import PropertyReviews from '@/components/reviews/PropertyReviews';
 import { findExistingReview } from '@/utils/actions';
 import { auth } from '@clerk/nextjs/server';
+import BookingWrapper from '@/components/properties/booking/BookingWrapper';
 
 const DynamicMap = dynamic(
   () => import('@/components/properties/PropertyMap'),
   {
     ssr: false,
     loading: () => <Skeleton className='h-[400px] w-full' />,
+  }
+);
+
+const DynamicBookingWrapper = dynamic(
+  () => import('@/components/properties/booking/BookingWrapper'),
+  {
+    ssr: false,
+    loading: () => <Skeleton className='h-[200px] w-full' />,
   }
 );
 
@@ -74,7 +83,12 @@ async function PropertyDetailsPage({ params }: { params: { id: string } }) {
         </div>
         <div className='lg:col-span-4 flex flex-col items-center'>
           {/* calendar */}
-          <BookingCalendar />
+          {/* <BookingCalendar /> */}
+          <DynamicBookingWrapper
+            propertyId={property.id}
+            price={property.price}
+            bookings={property.bookings}
+          />
         </div>
       </section>
 
@@ -84,7 +98,7 @@ async function PropertyDetailsPage({ params }: { params: { id: string } }) {
       <section>
         <section></section>
         {/* after two column section */}
-        {/* <SubmitReview propertyId={property.id} /> */} 
+        {/* <SubmitReview propertyId={property.id} /> */}
         {reviewDoesNotExist && <SubmitReview propertyId={property.id} />}
         <PropertyReviews propertyId={property.id} />
       </section>
